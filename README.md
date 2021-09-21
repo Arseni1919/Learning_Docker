@@ -1,6 +1,6 @@
 # Learning [Docker](https://docs.docker.com/get-started/)
 
-## Commands
+## Part 1 - Commands 
 
 To see all commands just type:
 ```shell
@@ -50,16 +50,23 @@ $ docker container <NAME>
 
 To enter the shell of a container:
 ```shell
-$ docker container exec -it <NAME> bash
+$ docker container exec -it <NAME> /bin/sh
 ```
 
+
+Build the image:
 ```shell
-
+$ docker image build -t arseni_perchik_user/nginx-website .
 ```
 
+Run a new image as a container:
 ```shell
-
+$ docker container run -d -p 8082:80 arseni_perchik_user/nginx-website
 ```
+
+---
+
+## Part 2 - Commands 
 
 ```shell
 
@@ -97,4 +104,4 @@ $ docker container exec -it <NAME> bash
 ## Credits
 
 - [YouTube | Exploring Docker (1) - Getting Started](https://www.youtube.com/watch?v=Kyx2PsuwomE)
-- []()
+- [YouTube | Exploring Docker (2) - Docker Compose With Node & MongoDB](https://www.youtube.com/watch?v=hP77Rua1E0c)
