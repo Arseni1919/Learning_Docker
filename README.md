@@ -68,37 +68,11 @@ $ docker container run -d -p 8082:80 arseni_perchik_user/nginx-website
 
 ## Part 2 - Commands 
 
-```shell
-
-```
-
-```shell
-
-```
-
-```shell
-
-```
-
-```shell
-
-```
-
-```shell
-
-```
-
-```shell
-
-```
-
-```shell
-
-```
+...
 
 ## Pitfalls & Tricks
 
-- `darwin` it is Mac OS
+- `darwin` it is "Mac OS"
 
 
 ## Credits
