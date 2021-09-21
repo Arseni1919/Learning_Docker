@@ -1,5 +1,11 @@
 # Learning [Docker](https://docs.docker.com/get-started/)
 
+Some Docker-specific terms:
+
+- A **Dockerfile** is a file that contains a set of instructions used to create an image.
+- An **image** is used to build and save snapshots (the state) of an environment.
+- A **container** is an instantiated, live image that runs a collection of processes.
+
 ## Part 1 - Commands 
 
 To see all commands just type:
@@ -79,3 +85,6 @@ $ docker container run -d -p 8082:80 arseni_perchik_user/nginx-website
 
 - [YouTube | Exploring Docker (1) - Getting Started](https://www.youtube.com/watch?v=Kyx2PsuwomE)
 - [YouTube | Exploring Docker (2) - Docker Compose With Node & MongoDB](https://www.youtube.com/watch?v=hP77Rua1E0c)
+- [RealPython | Docker in Action – Fitter, Happier, More Productive](https://realpython.com/docker-in-action-fitter-happier-more-productive/)
+- [Heroku | Container Registry & Runtime (Docker Deploys)](https://devcenter.heroku.com/articles/container-registry-and-runtime#release-phase)
+- [Docker Docs | Build your Python image](https://docs.docker.com/language/python/build-images/)
