@@ -85,6 +85,8 @@ $ docker container run -d -p 8082:80 arseni_perchik_user/nginx-website
 
 - [YouTube | Exploring Docker (1) - Getting Started](https://www.youtube.com/watch?v=Kyx2PsuwomE)
 - [YouTube | Exploring Docker (2) - Docker Compose With Node & MongoDB](https://www.youtube.com/watch?v=hP77Rua1E0c)
+- [YouTube | Docker Volumes explained in 6 minutes](https://www.youtube.com/watch?v=p2PH_YPCsis&ab_channel=TechWorldwithNana)
+- [YouTube | Docker Tutorial for Beginners (FULL COURSE in 3 Hours)](https://www.youtube.com/watch?v=3c-iBn73dDE&ab_channel=TechWorldwithNana)
 - [RealPython | Docker in Action – Fitter, Happier, More Productive](https://realpython.com/docker-in-action-fitter-happier-more-productive/)
 - [RealPython | Run Python Versions in Docker: How to Try the Latest Python Release](https://realpython.com/python-versions-docker/)
 - [Heroku | Container Registry & Runtime (Docker Deploys)](https://devcenter.heroku.com/articles/container-registry-and-runtime#release-phase)
