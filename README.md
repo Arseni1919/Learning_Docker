@@ -14,6 +14,8 @@ To see all commands just type:
 $ docker
 ```
 
+---
+
 ### --- Images ---
 
 To show all the images:
@@ -40,6 +42,8 @@ To remove image:
 ```shell
 $ docker image rm -f <image>
 ```
+
+---
 
 ### --- Containers ---
 
@@ -116,6 +120,9 @@ To open a new terminal in the same container:
 ```shell
 $ docker exec -it <NAME> /bin/bash
 ```
+
+---
+
 ### --- Dockerfile ---
 
 Here, we create our own image based on some other image (`FROM` parameter).
@@ -147,6 +154,7 @@ Now create a container out of your image:
 $ docker run -it my_image
 ```
 
+---
 
 ### --- Volumes ---
 
@@ -162,6 +170,8 @@ Example:
 $ docker run -it -v $PWD/:/my_source_code my_image
 ```
 Then type `ls` and see your source dir there.
+
+---
 
 ### --- Other Commands ---
 
@@ -180,6 +190,7 @@ Information of how many containers and images:
 $ docker info
 ```
 
+---
 
 ## Pitfalls & Tricks
 
