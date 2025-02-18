@@ -61,7 +61,11 @@ $ docker run -it <image>
 ```
 even more better:
 ```shell
-$ docker run --rm --name <container name> <image name>
+$ docker run -it --name <container name> <image name>
+```
+To share the networking (so that different nodes in ROS can talk with each other):
+```shell
+$ docker run -it --network=host --ipc=host -v $PWD/:/my_source_code <image name>
 ```
 
 To stop a container:
